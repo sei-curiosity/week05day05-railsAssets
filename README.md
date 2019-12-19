@@ -61,22 +61,22 @@ Add classes to the body of your `application.html.erb` so that you can namespace
 
 For the PostsController#Index, this would result in: 
 ```html
-<body class="posts index">
+<body class="arists index">
 ```
 
-So you can style specifically for any `posts` controller views with:
+So you can style specifically for any `artists` controller views with:
 ```css
-.posts {}
+.artists {}
 ```
 
-Or for specifically the `posts#index` view with:
+Or for specifically the `artists#index` view with:
 ```css
-.posts.index {}
+.artists.index {}
 ```
 
 This tip will also be helpful if we want controller or page specific JS
 ```js
-$('.posts.index button').click()
+$('.artists.index button').click()
 ```
 
 ## JS
